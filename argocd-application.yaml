@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-repo/my-app.git'
+    repoURL: 'https://github.com/Madisoilihi/my-app.git'
     path: helm-chart
-    targetRevision: HEAD
+    targetRevision: main
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
